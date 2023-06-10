@@ -1,0 +1,320 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.certificate-container {
+  width: 950px;
+  height: 734px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-size: contain;
+}
+
+.title {
+  font-size: 62px;
+  font-weight: 700;
+  position: relative;
+  margin: 0;
+  color: #e9b345;
+  font-family: "Tangerine";
+}
+
+.award-title {
+  position: relative;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #e9b345;
+  font-family: "Tangerine";
+}
+
+.recognition {
+  position: relative;
+  font-size: 38px;
+  font-weight: 700;
+  color: #e9b345;
+  margin-bottom: 25px;
+  font-family: "Tangerine";
+}
+
+.receipent-name {
+  position: relative;
+  font-size: 60px;
+  margin: 10px;
+  color: chocolate;
+  font-family: "Tangerine";
+}
+
+.content {
+  position: relative;
+  text-align: center;
+  width: 600px;
+  font-size: 17px;
+  margin: 5px;
+  color: grey;
+  border-top: 1px solid burlywood;
+  padding-top: 10px;
+  box-sizing: border-box;
+  font-family: "Charm";
+}
+
+.award-logo {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer {
+  width: 600px;
+  height: 180px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  color: #e9b345;
+}
+
+.signature-div {
+  width: 150px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.signature-logo {
+  width: 75px;
+  height: 70px;
+}
+
+.manager-name {
+  border-top: 1px solid burlywood;
+  width: 150px;
+  padding-top: 5px;
+  margin-top: 5px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Tangerine";
+}
+
+.date {
+  color: #e9b345;
+  text-align: center;
+  position: relative;
+  transform: translate(-50%);
+  left: 7%;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.form {
+  width: 80%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-family: "Poppins";
+  font-size: 20px;
+  margin: 0 auto;
+  overflow: scroll;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.input-element {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+
+.input-element > input:not([type="file"]) {
+  font-size: 25px;
+}
+
+.label {
+  font-weight: 500;
+}
+
+.submit-btn {
+  position: relative;
+  width: fit-content;
+  padding: 10px 15px;
+  border: 0;
+  background-color: #e1e1e1;
+  font-size: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.submit-btn:hover {
+  background-color: #d1d1d1;
+}
+
+.submit-btn:active {
+  background-color: black;
+  color: white;
+}
+
+.textbox {
+  padding: 5px;
+  border-radius: 5px;
+  border: 0.01rem solid #d1d1d1;
+}
+
+.manager-gap {
+  gap: 10px;
+}
+
+.btn-div {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-option-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top-menu {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #e1e1e1;
+  box-sizing: border-box;
+}
+
+.menu-btn {
+  border: 0;
+  background-color: transparent;
+  height: 50px;
+  font-size: 15px;
+}
+
+.bottom-border {
+  border-bottom: 1px solid black;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.custom-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.custom-table tbody tr:hover {
+  background-color: #e6f7ff;
+  cursor: pointer;
+}
+
+.download-btn {
+  background-color: transparent;
+  border: 0;
+}
+
+.download-logo {
+  width: 25px;
+  height: 25px;
+}
+
+.positioner-container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: scroll;
+}
+
+.color-btn-div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.color-btn-div button {
+  width: fit-content;
+  height: auto;
+  background-color: transparent;
+  border: 0;
+}
+.reset-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.positioner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  height: auto;
+  font-size: 15px;
+  border-bottom: 1px solid #d1d1d1;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.positioner > .input-element > input:not([id="innerText"]) {
+  width: 70px;
+}
+
+.positioner:last-child {
+  border-bottom: 0;
+}
+
+.positioner > .input-element {
+  width: 45%;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.positioner > .input-element > input {
+  font-size: 20px;
+  font-family: "Poppins";
+}
+
+#horizontal::-webkit-inner-spin-button,
+#horizontal::-webkit-outer-spin-button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 10px;
+  transform: rotate(90deg);
+}
